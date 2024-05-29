@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 28rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex--col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cols2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.span2 {
+    grid-column-start: span 2;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.app {
+    padding: 3rem 1.5rem;
+    background-color: #1B1924;
+    font-family: "Inter", sans-serif;
+}
+
+.app__header {
+    margin: 0 0 1rem;
+}
+
+.header__img {
+    width: 25%;
+    margin: 0 auto 1rem;
+}
+
+.header__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.app__input {
+    width: 100%;
+    margin: 0 0 1rem;
+    gap: .5rem;
+}
+
+.input__textarea,
+.input__input {
+    width: 100%;
+    padding: .75rem 1rem;
+    background-color: #444059;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8F8F8F;
+    border: none;
+    border-radius: .5rem;
+}
+
+.input__input {
+    text-align: center;
+}
+
+.input__button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #28A9F1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: #04131C;
+    border: none;
+    border-radius: .5rem;
+}
+
+.app__output {
+    width: 100%;
+}
+
+.output__title {
+    margin: 0 0 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.output__list {
+    width: 100%;
+    padding: 0;
+    gap: .75rem;
+    list-style: none;
+}
+
+.output__endorsement {
+    width: 100%;
+    padding: .75rem;
+    background-color: #fff;
+    font-size: .875rem;
+}
+
+.endorsement__header {
+    margin: 0 0 .75rem;
+    font-weight: bold;
+}
+
+.endorsement__body {
+    margin: 0 0 .75rem;
+}
+
+.endorsement__footer {
+    font-weight: bold;
+}
+
+.endorsement__heart {
+    cursor: pointer;
+    margin-right: .25rem;
+}
